@@ -1,0 +1,18 @@
+.button-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 72px;
+  gap: 16px;
+
+  border-radius: 6px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 18px */
+
+  text-align: center;
+}
