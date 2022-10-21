@@ -21,6 +21,8 @@ module.exports = {
         'secundary-button-hover': '#005547',
         'secundary-button-border': '#006655',
         'main-text-color': '#242424',
+        'green-color': '#006655',
+        'yellow-color': '#FDC543',
       },
     },
   },

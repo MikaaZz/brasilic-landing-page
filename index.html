@@ -17,102 +17,151 @@
       <header
         class="items-center justify-center flex flex-col mb-2 h-screen w-full bg-header-background bg-center bg-no-repeat bg-cover"
       >
-        <div
-          class="items-center justify-center flex flex-col gap-12 w-full h-screen bg-header-gradient"
-        >
-          <svg
-            class="my-8 absolute top-4"
-            width="320"
-            height="45"
-            viewBox="0 0 320 45"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+        <div class="w-full bg-header-gradient h-screen">
+          <div
+            class="items-center justify-center flex flex-col gap-12 max-w-6xl w-full h-screen mx-auto"
           >
-            <g clip-path="url(#clip0_2_3)">
-              <path
-                d="M19.9341 32.0455C19.5568 37.324 14.6838 37.478 14.6838 37.478H7.98874V26.4589L14.6083 26.5359C15.7511 26.5359 16.9693 26.9208 17.8749 27.6246C20.1605 29.3292 19.9341 32.0455 19.9341 32.0455ZM11.719 7.44501C16.6675 7.52199 16.8184 12.5696 16.8184 12.5696C16.8184 15.3629 14.8455 16.6826 14.8455 16.6826L9.05606 7.44501H11.719ZM22.748 20.5645C22.748 20.5645 25.0335 17.9252 25.0335 13.2735C25.0335 13.2735 25.2599 6.44428 20.1605 2.56232C18.414 1.16569 15.902 0.230938 12.6246 0H0V7.44501L6.46862 17.7603H0V45H15.6648C15.6648 45 27.3838 44.0653 27.9875 31.3416C27.9983 31.4296 28.4511 25.0623 22.748 20.5645Z"
-                fill="white"
-              />
-              <path
-                d="M62.3535 18.0836H54.7668V8.96188H62.2797C67.485 8.96188 67.19 13.5548 67.19 13.5548C67.19 13.5548 67.3375 16.9514 63.9235 17.9233C63.3967 18.0088 62.8804 18.0836 62.3535 18.0836ZM68.2332 25.774C76.5574 21.7045 75.9674 13.4907 75.9674 13.4907C75.9674 9.72024 74.7029 7.15677 73.2172 5.20213C69.3501 -0.149117 62.9541 0.000418938 62.9541 0.000418938H46V45H54.7774V26.9809H59.3083L67.6326 44.9893H77L68.2332 25.774Z"
-                fill="white"
-              />
-              <path
-                d="M107.119 27.6603L112.05 17.5534L116.62 27.6603H107.119ZM113.57 0H111.033L89 45H98.6348L102.692 36.7094H120.667L124.437 45H134L113.57 0Z"
-                fill="white"
-              />
-              <path
-                d="M166.991 19.4689C164.377 17.9508 161.192 17.2225 161.192 17.2225C159.499 16.7917 158.077 16.0634 158.077 16.0634C156.665 15.3351 155.743 14.0324 155.813 12.586C155.884 10.6268 157.576 9.03692 159.84 8.82151C159.84 8.82151 164.437 8.16503 170.016 12.6578L174.543 5.34419C171.588 3.03624 168.263 1.58992 168.263 1.58992C163.736 -0.512884 158.157 -0.512884 154.061 1.58992C150.806 3.25165 148.482 6.15454 147.701 9.76521C147.35 11.1397 147.28 13.0989 147.771 15.2633C147.911 15.9916 148.121 16.7096 148.482 17.4379C149.193 18.956 150.105 20.4023 151.306 21.5614C152.578 22.7923 154.271 23.8796 156.535 24.6695C156.955 24.8131 157.386 24.9567 157.736 25.0285C158.157 25.1721 158.658 25.3157 159.079 25.4593C159.71 25.6747 160.28 25.8183 160.911 26.044C163.526 26.7005 166.851 28.5058 166.921 31.6857C166.921 32.3421 166.781 32.9166 166.43 33.491C163.676 38.4864 156.044 35.8092 152.298 32.773C151.377 31.9729 150.956 31.3266 150.956 31.3266L144.806 37.2658C144.806 37.2658 146.429 39.584 150.245 41.8304C151.377 42.5587 152.929 43.2767 154.632 43.8614C154.772 43.9332 154.912 43.9332 155.052 44.005C159.72 45.4513 167.351 46.1796 172.299 39.9533C173.782 38.0761 174.773 35.8297 175.124 33.5115V33.2961C175.474 30.0342 174.983 23.9514 166.991 19.4689Z"
-                fill="white"
-              />
-              <path d="M201 0H193V45H201V0Z" fill="white" />
-              <path
-                d="M230.678 36.0256V0H222V45H230.678H247V36.0256H230.678Z"
-                fill="white"
-              />
-              <path d="M270 0H262V45H270V0Z" fill="white" />
-              <path
-                d="M306.54 36.0802C299.238 36.0802 293.281 29.9794 293.281 22.5C293.281 15.0206 299.238 8.91975 306.54 8.91975C309.302 8.91975 311.854 9.79424 313.983 11.2449L319.438 4.71193C315.751 1.73868 311 0 305.968 0C293.854 0 284 10.0926 284 22.5C284 34.9074 293.854 45 305.968 45C311.281 45 316.173 43.035 320 39.8457L314.475 33.3848C312.286 35.0617 309.513 36.0802 306.54 36.0802Z"
-                fill="white"
-              />
-            </g>
-            <defs>
-              <clipPath id="clip0_2_3">
-                <rect width="320" height="45" fill="white" />
-              </clipPath>
-            </defs>
-          </svg>
-          <div class="flex items-center flex-col gap-1">
-            <h2 class="font-normal text-4xl uppercase">Curso Online</h2>
-            <h1 class="font-extrabold text-6xl uppercase">
-              Como abrir<br />meu restaurante
-            </h1>
+            <svg
+              class="my-8 absolute top-4"
+              width="320"
+              height="45"
+              viewBox="0 0 320 45"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_2_3)">
+                <path
+                  d="M19.9341 32.0455C19.5568 37.324 14.6838 37.478 14.6838 37.478H7.98874V26.4589L14.6083 26.5359C15.7511 26.5359 16.9693 26.9208 17.8749 27.6246C20.1605 29.3292 19.9341 32.0455 19.9341 32.0455ZM11.719 7.44501C16.6675 7.52199 16.8184 12.5696 16.8184 12.5696C16.8184 15.3629 14.8455 16.6826 14.8455 16.6826L9.05606 7.44501H11.719ZM22.748 20.5645C22.748 20.5645 25.0335 17.9252 25.0335 13.2735C25.0335 13.2735 25.2599 6.44428 20.1605 2.56232C18.414 1.16569 15.902 0.230938 12.6246 0H0V7.44501L6.46862 17.7603H0V45H15.6648C15.6648 45 27.3838 44.0653 27.9875 31.3416C27.9983 31.4296 28.4511 25.0623 22.748 20.5645Z"
+                  fill="white"
+                />
+                <path
+                  d="M62.3535 18.0836H54.7668V8.96188H62.2797C67.485 8.96188 67.19 13.5548 67.19 13.5548C67.19 13.5548 67.3375 16.9514 63.9235 17.9233C63.3967 18.0088 62.8804 18.0836 62.3535 18.0836ZM68.2332 25.774C76.5574 21.7045 75.9674 13.4907 75.9674 13.4907C75.9674 9.72024 74.7029 7.15677 73.2172 5.20213C69.3501 -0.149117 62.9541 0.000418938 62.9541 0.000418938H46V45H54.7774V26.9809H59.3083L67.6326 44.9893H77L68.2332 25.774Z"
+                  fill="white"
+                />
+                <path
+                  d="M107.119 27.6603L112.05 17.5534L116.62 27.6603H107.119ZM113.57 0H111.033L89 45H98.6348L102.692 36.7094H120.667L124.437 45H134L113.57 0Z"
+                  fill="white"
+                />
+                <path
+                  d="M166.991 19.4689C164.377 17.9508 161.192 17.2225 161.192 17.2225C159.499 16.7917 158.077 16.0634 158.077 16.0634C156.665 15.3351 155.743 14.0324 155.813 12.586C155.884 10.6268 157.576 9.03692 159.84 8.82151C159.84 8.82151 164.437 8.16503 170.016 12.6578L174.543 5.34419C171.588 3.03624 168.263 1.58992 168.263 1.58992C163.736 -0.512884 158.157 -0.512884 154.061 1.58992C150.806 3.25165 148.482 6.15454 147.701 9.76521C147.35 11.1397 147.28 13.0989 147.771 15.2633C147.911 15.9916 148.121 16.7096 148.482 17.4379C149.193 18.956 150.105 20.4023 151.306 21.5614C152.578 22.7923 154.271 23.8796 156.535 24.6695C156.955 24.8131 157.386 24.9567 157.736 25.0285C158.157 25.1721 158.658 25.3157 159.079 25.4593C159.71 25.6747 160.28 25.8183 160.911 26.044C163.526 26.7005 166.851 28.5058 166.921 31.6857C166.921 32.3421 166.781 32.9166 166.43 33.491C163.676 38.4864 156.044 35.8092 152.298 32.773C151.377 31.9729 150.956 31.3266 150.956 31.3266L144.806 37.2658C144.806 37.2658 146.429 39.584 150.245 41.8304C151.377 42.5587 152.929 43.2767 154.632 43.8614C154.772 43.9332 154.912 43.9332 155.052 44.005C159.72 45.4513 167.351 46.1796 172.299 39.9533C173.782 38.0761 174.773 35.8297 175.124 33.5115V33.2961C175.474 30.0342 174.983 23.9514 166.991 19.4689Z"
+                  fill="white"
+                />
+                <path d="M201 0H193V45H201V0Z" fill="white" />
+                <path
+                  d="M230.678 36.0256V0H222V45H230.678H247V36.0256H230.678Z"
+                  fill="white"
+                />
+                <path d="M270 0H262V45H270V0Z" fill="white" />
+                <path
+                  d="M306.54 36.0802C299.238 36.0802 293.281 29.9794 293.281 22.5C293.281 15.0206 299.238 8.91975 306.54 8.91975C309.302 8.91975 311.854 9.79424 313.983 11.2449L319.438 4.71193C315.751 1.73868 311 0 305.968 0C293.854 0 284 10.0926 284 22.5C284 34.9074 293.854 45 305.968 45C311.281 45 316.173 43.035 320 39.8457L314.475 33.3848C312.286 35.0617 309.513 36.0802 306.54 36.0802Z"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_2_3">
+                  <rect width="320" height="45" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <div class="flex items-center flex-col gap-1 text-center">
+              <h2 class="font-normal uppercase">Curso Online</h2>
+              <h1 class="font-extrabold text-uppercase">
+                Como abrir<br />meu restaurante
+              </h1>
+            </div>
+            <nav class="flex items-center gap-8">
+              <button
+                class="transition-all button-style bg-primary-button text-main-text-color hover:bg-primary-button-hover hover:border-primary-button-border"
+              >
+                Revolucione<br />
+                o seu negócio
+              </button>
+              <button
+                class="transition-all button-style bg-secundary-button hover:bg-secundary-button-hover hover:border-secundary-button-border hover:border-solid"
+              >
+                Acessar grade<br />
+                de conteúdo
+              </button>
+            </nav>
           </div>
-          <nav class="flex items-center gap-8">
+        </div>
+      </header>
+      <main class="items-center justify-center flex flex-col gap-4 relative">
+        <img
+          class="absolute left-0 top-14 z-10"
+          src="./src/assets//svg/detail.svg"
+        />
+        <img
+          class="absolute right-0 rotate-180 z-10"
+          src="./src/assets//svg/detail.svg"
+        />
+        <section
+          class="items-center justify-center flex flex-col gap-24 max-w-6xl w-full mx-auto my-8 relative sm:flex-row"
+        >
+          <div class="relative mx-auto items-center justify-end flex">
+            <span
+              class="h-10 w-10 bg-green-color inline-block rounded-full absolute top-0 -z-10"
+            ></span>
+            <img
+              class="rounded-2xl drop-shadow-2xl"
+              src="./src/assets/img/ImageCard.png"
+              alt=""
+            />
+            <span
+              class="h-10 w-10 bg-yellow-color inline-block rounded-full absolute bottom-0 -z-10"
+            ></span>
+          </div>
+          <div class="items-start justify-start flex flex-col w-1/2">
+            <div class="items-start justify-start flex flex-col mb-8">
+              <h3 class="font-normal">Curso online</h3>
+              <h2 class="font-bold">Entenda o curso:</h2>
+            </div>
+            <p class="mb-6">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad cum
+              ea accusamus quos quis, cupiditate repellendus sequi ab tempore
+              quam mollitia dolorem eum architecto! Aperiam illo mollitia
+              temporibus ad architecto.
+            </p>
+            <div class="items-start justify-start flex gap-4 mb-5">
+              <span
+                ><h4 class="font-bold">10</h4>
+                <h5>Módulos</h5></span
+              >
+              <span
+                ><h4 class="font-bold">+40h</h4>
+                <h5>Conteúdo</h5></span
+              >
+            </div>
             <button
               class="transition-all button-style bg-primary-button text-main-text-color hover:bg-primary-button-hover hover:border-primary-button-border"
             >
               Revolucione<br />
               o seu negócio
             </button>
-            <button
-              class="transition-all button-style bg-secundary-button hover:bg-secundary-button-hover hover:border-secundary-button-border hover:border-solid"
-            >
-              Acessar grade<br />
-              de conteúdo
-            </button>
-          </nav>
-        </div>
-      </header>
-      <main>
-        <div class="bg-gray-50 rounded-xl border-2 border-slate-300">
-          <div
-            class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8 lg:gap-4"
-          >
-            <h2
-              class="text-left text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
-            >
-              <span class="block">Pronto para subir seu nivel?</span>
-              <span class="block text-indigo-600">Acesse nosso curso!</span>
-            </h2>
-            <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-              <div class="inline-flex rounded-md shadow">
-                <a
-                  href="#"
-                  class="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
-                  >Get started</a
-                >
-              </div>
-              <div class="ml-3 inline-flex rounded-md shadow">
-                <a
-                  href="#"
-                  class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-50"
-                  >Learn more</a
-                >
+          </div>
+        </section>
+        <section
+          class="items-center justify-center flex flex-col gap-24 max-w-6xl w-full mx-auto my-8 relative"
+        >
+          <div class="items-center justify-center flex flex-col">
+            <h5>Conteúdo</h5>
+            <h3 class="font-bold">12 Módulos</h3>
+          </div>
+          <div>
+            <div class="items-start justify-start flex flex-col gap-4">
+              <img src="" alt="" />
+              <div class="items-start justify-start flex flex-col px-4 py-3">
+                <h6>Módulo I</h6>
+                <h5>Plano de negócio</h5>
+                <p>
+                  Objetivo falar de como surgiu, tipo de capital, marca forte,
+                  inspirações, história, depoimento dos sócios, viabilidade
+                  econômica.
+                </p>
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </main>
     </div>
     <script type="module" src="/src/main.ts"></script>
